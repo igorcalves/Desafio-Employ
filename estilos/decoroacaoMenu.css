@@ -1,0 +1,30 @@
+.menu {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(235, 235, 235);
+    height: 450px;
+    text-align: center;
+}
+
+.recursosPerfil {
+    color: #1EA358;
+    font-size: 30px;
+    text-decoration: none;
+    position: relative;
+    padding: 30px;
+}
+
+.recursosPerfil:hover {
+    color: #025a1c;
+}
+
+
+
+.logo {
+    height: 150px;
+
+    position: relative;
+    top: 8px;
+}

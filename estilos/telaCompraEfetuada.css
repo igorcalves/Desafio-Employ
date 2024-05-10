@@ -1,0 +1,21 @@
+body {
+    font-family: 'ROBOTO';
+    background-color: #cecece;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.layerPrincipal {
+    text-align: center;
+    height: 40%;
+    width: 30%;
+    border-radius: 30px;
+    background-color: white;
+    z-index: 1;
+}
+
+.textoPrincipal {
+    color: #1EA358;
+}
