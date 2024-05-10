@@ -19,3 +19,10 @@ body {
 .textoPrincipal {
     color: #1EA358;
 }
+
+.conteudoDaLayer {
+
+    position: relative;
+    top: 30px;
+    font-size: 30px;
+}

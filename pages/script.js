@@ -1,6 +1,6 @@
 document.querySelectorAll('.botaoAssinar').forEach(function (e) {
     e.addEventListener('click', function () {
-        window.location.href = '/pages/telaPagamento.html'
+        window.location.href = './pages/telaPagamento.html'
     });
 })
 
@@ -8,7 +8,9 @@ document.querySelectorAll('.botaoAssinar').forEach(function (e) {
 
 const inicio = document.querySelector("[inicio]");
 
-inicio.addEventListener('click', _ => {
-    inicio.href = "../index.html";
-})
+if (inicio) {
+    inicio.addEventListener('click', _ => {
+        inicio.href = "../index.html";
+    })
 
+}
