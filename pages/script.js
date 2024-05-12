@@ -1,16 +1,31 @@
 document.querySelectorAll('.botaoAssinar').forEach(function (e) {
     e.addEventListener('click', function () {
-        window.location.href = './pages/telaPagamento.html'
+        window.location.href = './telaPagamento.html'
     });
 })
 
 
 
-const inicio = document.querySelector("[inicio]");
 
-if (inicio) {
-    inicio.addEventListener('click', _ => {
-        inicio.href = "../index.html";
+
+
+const planos = document.querySelector("[planos]");
+
+
+if (planos) {
+    planos.addEventListener('click', _ => {
+        planos.href = "./telaPlanos.html";
+    })
+
+}
+
+
+const entrada = document.querySelector("[entrada]")
+
+
+if (entrada) {
+    entrada.addEventListener('click', _ => {
+        entrada.href = "./index.html";
     })
 
 }
