@@ -86,6 +86,7 @@ body {
 }
 
 .botaoPagar {
+    border: none;
     color: white;
     background-color: #1EA358;
     margin: 30px 0;

@@ -40,11 +40,16 @@ body {
 }
 
 .botaoEnviar {
+    border: none;
     color: white;
     background-color: #1EA358;
     margin: 30px 0;
     border-radius: 4px;
     padding: 10px;
+}
+
+.botaoEnviar:hover {
+    background-color: #096e35;
 }
 
 .campoBotao {
