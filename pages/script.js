@@ -11,14 +11,6 @@ document.querySelectorAll('.botaoAssinar').forEach(function (e) {
 
 const planos = document.querySelector("[planos]");
 
-const planosIndex = document.querySelector("[planosIndex]");
-
-if (planosIndex) {
-    planosIndex.addEventListener('click', _ => {
-        planosIndex.href = "./pages/telaPlanos.html";
-    })
-
-}
 
 
 if (planos) {
@@ -38,3 +30,14 @@ if (entrada) {
     })
 
 }
+
+const suporte = document.querySelector("[suporte]")
+
+
+if (suporte) {
+    suporte.addEventListener('click', _ => {
+        suporte.href = "./telaSuporte.html";
+    })
+
+}
+

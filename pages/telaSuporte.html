@@ -4,18 +4,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Compara Efetuada</title>
-    <link rel="stylesheet" href="../estilos/telaCompraEfetuada.css">
     <link rel="stylesheet" href="../estilos/decoroacaoMenu.css">
+    <link rel="stylesheet" href="../estilos/telaSuporte.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
+    <title>Suporte</title>
 </head>
 
 <body>
-
 
     <header class="menu">
 
@@ -29,19 +28,33 @@
             <div class="recursos">
                 <a class="recursosPerfil" entrada href="">Entrada</a>
                 <a class="recursosPerfil" planos href="">Planos</a>
-                <a class="recursosPerfil" suporte href="">Suporte</a>
-
+                <a class="recursosPerfil" href="">Suporte</a>
+                <p>
+                </p>
             </div>
+
     </header>
 
+    <div class="contatoSuporte">
 
-    <div class="layerPrincipal">
-        <h1 class="textoPrincipal">Compra Efetuada com sucesso</h1>
-        <p class="conteudoDaLayer">Obrigado por fazer parte em breve você receberá em seu email a confirmação.</p>
+        <form action="../index.html" class="orgTextInput">
+            <input type="text" class="campoTexto" placeholder="Nome Completo">
+            <input type="text" class="campoTexto" placeholder="Produto">
+            <input type="text" class="campoTexto" placeholder="Assunto">
+            <div class="campoChamado">
+                <p class="tituloChamado">Descrição</p>
+                <textarea class="textoChamado" cols="200" rows="20"></textarea>
+            </div>
+
+            <div class="campoBotao">
+                <button class="botaoEnviar">Enviar</button>
+            </div>
+
+        </form>
     </div>
 
-
 </body>
-<script src="script.js"></script>
+
+<script src="./script.js"></script>
 
 </html>
