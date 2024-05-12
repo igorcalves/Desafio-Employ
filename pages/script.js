@@ -18,6 +18,7 @@ if (planos) {
         planos.href = "./telaPlanos.html";
     })
 
+
 }
 
 
